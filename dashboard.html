@@ -5,8 +5,63 @@
     <title>title</title>
     <link rel="stylesheet" href="css/main.css">
     <script src="js/main.js"></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
   </head>
+  <STYLE>
+      .jumbotron{
+      background-image:url("dashboard-demo.jpg");
+      background-color:lightblue"
+      }
+      </STYLE>
   <body>
-  
+      <body background = "bar-chart.png">  
+  <div class = "mainDiv">
+    <div class="jumbotron text-center">
+      <h1>Dashboard</h1>
+      <p>Welcome to HIP Consult! </p> 
+      <button type="button" class="btn btn-info" onclick=" relocate_home()">LOGIN</button>
+      <p></p>
+      <marquee>Our main mission is to...........................</marquee>
+
+      <script>
+	function relocate_home()
+	{
+     location.href = "login.html";
+	} 
+	</script>
+
+    </div>
+  </div>
+      
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-4">
+          <h3>About</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+          <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+          <img src="dashboard-demo.jpg" alt="chart">
+        </div>
+        
+        <div class="col-sm-4">
+          <h3>Twitter</h3>        
+          <a class="twitter-timeline" href="https://twitter.com/hipconsult?ref_src=twsrc%5Etfw">Tweets by hipconsult</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
+
+        <div class="col-sm-4">
+            <h3>Tools</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+          </div>
+
+
+      </div>
+    </div>
+    
+
   </body>
 </html>
